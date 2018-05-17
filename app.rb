@@ -8,4 +8,5 @@ class App < Sinatra::Base
   
   configure do 
     enable :session 
+    set :session 
 end
